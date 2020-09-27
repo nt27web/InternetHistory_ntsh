@@ -1,23 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
+    <title>Invention of the Internet</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--calling the js file used to make the background image stretch all the way across screen-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript">
+        function scrollTo(hash) {
+            location.hash = "#" + hash;
+        }
 
-    <title>Hello, world!</title>
-
+    </script>
 </head>
-<body>
-<h1>Hello, world!</h1>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="./js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <!--<div class="navbar-header">
+            <a class="navbar-brand" href="#">History of Internet website</a>
+        </div>-->
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Topics
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.google.com">Internet Invention</a></li>
+                    <li><a href="#">Browser Wars</a></li>
+                    <li><a href="#">Internet Search</a></li>
+                    <li><a href="#">Dot com bubble</a></li>
+                    <li><a href="#">Group</a></li>
+                    <li><a href="#">Internet History</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="page-header header container-fluid">
+    <div class="overlay"></div>
+    <div class="description">
+        <h1>Welcome to the Landing Page!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringilla, in pharetra sem ullamcorper.</p>
+
+        <button class="btn btn-outline-secondary btn-lg" onclick="{scrollTo('middle')}">Tell Me More!</button>
+    </div>
+</header>
+
+<div id="middle" class="container features">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Internet Invention</h3>
+            <img src="images/invention_edited.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Browser Wars</h3>
+            <img src="images/smallimage2Home_edited.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Internet Search</h3>
+            <img src="images/interneticon_edited.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Dot com Bubble</h3>
+            <img src="images/squareimage2Home_ps_1.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Group</h3>
+            <img src="images/squareimage2Home_ps_1.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Internet History</h3>
+            <img src="images/squareimage2Home_ps_1.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                <p></p>
+                <p>This site was designed and developed by Nayana K Thakur and Saurav Halepalya
+                    <br/> as their masters assignment for the course Web development (IS-601)</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                <p>New Jersey Institute of Technology
+                    <br/>
+                    323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102
+                    <br/>kwilliam@njit.edu
+                    <br/>+(973) 596-3000
+                </p>
+            </div>
+        </div>
+        <div style="height: 20px"></div>
+        <div class="footer-copyright text-center">© 2020 Copyright:
+            <a href="https://nt27web.github.io/InternetHistory_ntsh/">nt27web.github.io/InternetHistory_ntsh</a>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
