@@ -11,13 +11,14 @@
     <script src="js/main.js"></script>
     <!--calling the js file used to make the background image stretch all the way across screen-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
-    <script type="text/javascript">
-        function scrollTo(hash) {
-            location.hash = "#" + hash;
-        }
-
+    <script>
+        $(document).ready(function () {
+            $('#navigate').on('click', function (event) {
+                location.hash = "#middle";
+            });
+        });
     </script>
+
 </head>
 
 <body>
@@ -48,10 +49,11 @@
 <header class="page-header header container-fluid">
     <div class="overlay"></div>
     <div class="description">
-        <h1>Welcome to the website 'History of the Internet'</h1>
+        <h1>Welcome to the Website</h1>
+        <h1>'History of the Internet'</h1>
         <p>Use the Menu bar to navigate to different Topics. Take a quick look at the list below</p>
 
-        <button class="btn btn-outline-secondary btn-lg" onclick="{scrollTo('middle')}">Tell Me More!</button>
+        <button id="navigate" type="button" class="btn">Tell Me More!</button>
     </div>
 </header>
 
